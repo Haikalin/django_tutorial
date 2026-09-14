@@ -1,0 +1,36 @@
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local databases
+*.sqlite3
+db.sqlite3
+
+# Python virtual environments
+test/
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and test output
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Django-generated files
+media/
+staticfiles/
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
